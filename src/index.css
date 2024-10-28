@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #023047;
+  --primary-green: #05b993;
+  --neon-green: #a3ff6b;
+}
+
+body {
+  background-color: var(--primary-dark);
+  color: #ffffff;
+}
+
+.gradient-dark {
+  background: linear-gradient(130deg, #023047 0%, #035067 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(130deg, #034057 0%, #046077 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #05b993, #a3ff6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
